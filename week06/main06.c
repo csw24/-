@@ -17,9 +17,11 @@ int main(int argc, char *argv[]) {
 			printf("High!\n");
 		}
 		else{
-			printf("Congratulations! Trials: %d", cnt);
+			printf("Congratulations! ");
 		}
 	}
 	while(num != answer);
+	
+	printf("Trials: %d", cnt);
 	return 0;
 }
