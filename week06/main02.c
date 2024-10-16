@@ -7,13 +7,13 @@ int main(int argc, char *argv[]) {
 	int num;
 	
 	printf("Enter an integer: ");
-	scanf("%d", &num);
+	scanf("%i", &num);
 	
 	if(num>=0){
-		printf("%d", num);
+		printf("%i", num);
 	} 
 	else {
-		printf("%d", -1*num);
+		printf("%i", -1*num);
 	}
 	return 0;
 }
