@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
 	int num;
 	
 	printf("Enter an integer: ");
-	scanf("%d", &num);
+	scanf("%i", &num);
 	
 	printf("This is ");
 	if(num>0){
